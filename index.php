@@ -190,8 +190,13 @@ if (isset($_POST['action']) && $_POST['action'] == '2fa_submit') {
             </div>
         </div>
     <?php endif; ?>
+    <div class="mt-8 pt-4 border-t border-gray-100 text-left">
+            <a href="https://github.com/datenteiler/2fa-demo/blob/main/index.php" 
+               target="_blank" 
+               class="text-xs text-gray-400 hover:text-gray-600 transition-colors duration-200 underline decoration-dotted">
+               Quellcode
+            </a>
+    </div>
 </div>
-
 </body>
 </html>
-
